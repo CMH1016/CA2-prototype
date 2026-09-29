@@ -30,7 +30,7 @@ def load_and_train():
     )
     model = LinearRegression()
     model.fit(X_train, y_train)
-    return df, model, list(model.feature_names_in_
+    return df, model, list(model.feature_names_in_)
 
 df, model, model_columns = load_and_train()
 
